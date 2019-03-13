@@ -1,0 +1,26 @@
+{
+  "name": "neighborhood-map",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://tirabee.github.io/neighborhood-map/",
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "react": "^16.5.2",
+    "react-burger-menu": "^2.5.4",
+    "react-css-themr": "^2.1.2",
+    "react-dom": "^16.5.2",
+    "react-foursquare": "^1.0.3",
+    "react-google-maps": "^9.4.5",
+    "react-scripts": "1.1.5",
+    "react-toolbox-themr": "^1.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject",
+    "toolbox": "react-toolbox-themr"
+  }
+}

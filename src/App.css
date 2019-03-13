@@ -1,0 +1,285 @@
+html {
+  background-color: #219ADA;
+}
+
+#title {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 60px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.2);
+}
+h1.heading {
+  color: #fff;
+}
+h2.heading {
+  color: #fff;
+  font-size: .75rem;
+}
+h1 {
+  color: #000;
+}
+
+input#search {
+  width: 85%;
+  height: 2rem;
+  font-size: 1rem;
+  margin-top: 10%;
+  padding: 20px;
+}
+
+li.listItem {
+  list-style: none;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  background: #72b832;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+h1,h2, h6 {
+  font-family: 'Cinzel', serif;
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+h2, .card-subtitle {
+  font-family: 'Bellefair', serif;  
+}
+
+.button{
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  padding: 6px 20px;
+  margin: 0;
+  cursor: pointer;
+  border: 1px solid #bbb;
+  overflow: visible;
+  font: bold 13px arial, helvetica, sans-serif;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #555;
+  
+  background-color: #ddd;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,1)), to(rgba(255,255,255,0)));
+  background-image: -webkit-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+  background-image: -moz-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+  background-image: -ms-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+  background-image: -o-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+  background-image: linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+  
+  -webkit-transition: background-color .2s ease-out;
+  -moz-transition: background-color .2s ease-out;
+  -ms-transition: background-color .2s ease-out;
+  -o-transition: background-color .2s ease-out;
+  transition: background-color .2s ease-out;
+  background-clip: padding-box; /* Fix bleeding */
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, .3), 0 2px 2px -1px rgba(0, 0, 0, .5), 0 1px 0 rgba(255, 255, 255, .3) inset;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .3), 0 2px 2px -1px rgba(0, 0, 0, .5), 0 1px 0 rgba(255, 255, 255, .3) inset;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, .3), 0 2px 2px -1px rgba(0, 0, 0, .5), 0 1px 0 rgba(255, 255, 255, .3) inset;
+  text-shadow: 0 1px 0 rgba(255,255,255, .9);
+  
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.button:hover{
+  background-color: #eee;
+  color: #555;
+}
+
+.button:active{
+  background: #e9e9e9;
+  position: relative;
+  top: 1px;
+  text-shadow: none;
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .3) inset;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .3) inset;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .3) inset;
+}
+
+
+.button.green, .button.red, .button.blue, .button.purple, .button.orange, .button.pink, .button.gold {
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0,0,0,.2);
+  
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,.3)), to(rgba(255,255,255,0)));
+  background-image: -webkit-linear-gradient(top, rgba(255,255,255,.3), rgba(255,255,255,0));
+  background-image: -moz-linear-gradient(top, rgba(255,255,255,.3), rgba(255,255,255,0));
+  background-image: -ms-linear-gradient(top, rgba(255,255,255,.3), rgba(255,255,255,0));
+  background-image: -o-linear-gradient(top, rgba(255,255,255,.3), rgba(255,255,255,0));
+  background-image: linear-gradient(top, rgba(255,255,255,.3), rgba(255,255,255,0));
+}
+
+/* */
+
+.button.green{
+  background-color: #57a957;
+  border-color: #57a957;
+}
+
+.button.green:hover{
+  background-color: #62c462;
+}
+
+.button.green:active{
+  background: #57a957;
+}
+
+/* */
+
+.button.red{
+  background-color: #ca3535;
+  border-color: #c43c35;
+}
+
+.button.red:hover{
+  background-color: #ee5f5b;
+}
+
+.button.red:active{
+  background: #c43c35;
+}
+
+/* */
+
+.button.blue{
+  background-color: #269CE9;
+  border-color: #269CE9;
+}
+
+.button.blue:hover{
+  background-color: #70B9E8;
+}
+
+.button.blue:active{
+  background: #269CE9;
+}
+
+
+
+.button.purple{
+  background-color: #BA55D3;
+  border-color: #BA55D3;
+}
+
+.button.purple:hover{
+  background-color: #DDA0DD;
+}
+
+.button.purple:active{
+  background: #BA55D3;
+}
+
+
+.button.orange{
+  background-color: #FF7F50;
+  border-color:#FF7F50;
+}
+
+.button.orange:hover{
+  background-color: #FFA500;
+}
+
+.button.orange:active{
+  background: #FF7F50;
+}
+
+
+.button.pink{
+  background-color: #FF69B4;
+  border-color: #FF69B4;
+}
+
+.button.pink:hover{
+  background-color: #FFC0CB;
+}
+
+.button.pink:active{
+  background: #FF69B4;
+}
+
+.button.gold{
+  background-color: #FFD700;
+  border-color: #FFD700;
+}
+
+.button.gold:hover{
+  background-color: #FAFAD2;
+}
+
+.button.gold:active{
+  background: #FFD700;
+}
